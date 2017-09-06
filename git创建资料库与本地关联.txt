@@ -29,10 +29,30 @@ git remote add + origin£¨Ô¶³ÌÃû³Æ£©+http://182.92.178.192:9000/tsgeek/test.git(µ
 git pull +origin(Ô¶³ÌÃû×Ö)+master(·ÖÖ§Ãû³Æ)
 git pull origin https://github.com/qinghuiguo/test.git
 
-
+Ìí¼ÓÎÄ¼ş
 git add . 
  $ git add text.txt
 $ git commit -m"Ìí¼ÓĞÂÎÄ¼ş"
 $ git push origin master
+
+¸üĞÂÎÄ¼ş
+
+git status
+
+git diff test.txt
+
+git add test.txt
+
+git status
+
+
+git commit -m "add distributed"
+
+ÉÏ´«ĞŞ¸Ä
+
+git push origin master  
+
+
+
 
 ÇëÌæ»»Îª×Ô¼º²Ö¿âµÄµÄSSH
