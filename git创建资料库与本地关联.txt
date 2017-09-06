@@ -1,0 +1,31 @@
+方法一
+远端仓库与本地仓库关联
+Git支持HTTPS和SSH协议，SSH速度更快
+ git clone git@github.com:nanfei9330/xx.git
+ git clone https://github.com/qinghuiguo/test.git
+ 
+ 
+ 2.本地库关联远程库，在本地仓库目录运行命令：
+ git remote add origin git@github.com:nanfei9330/learngit.git
+ 
+ 3.推送master分支的所有内容
+ git push -u origin master
+ 第一次使用加上了-u参数，是推送内容并关联分支。
+
+推送成功后就可以看到远程和本地的内容一模一样，下次只要本地作了提交，就可以通过命令：
+ git push origin master
+ 
+ 方法二
+ 初始化本地仓库文件
+ git init
+
+把本地仓库关联远程仓库
+git remote add + origin（远程名称）+http://182.92.178.192:9000/tsgeek/test.git(地址)
+把远程仓库最新版本放到本地仓库
+git pull +origin(远程名字)+master(分支名称)
+
+ $ git add text.txt
+$ git commit -m"添加新文件"
+$ git push origin master
+
+请替换为自己仓库的的SSH
