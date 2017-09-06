@@ -3,12 +3,13 @@
 ·½·¨Ò»
 Ô¶¶Ë²Ö¿âÓë±¾µØ²Ö¿â¹ØÁª
 GitÖ§³ÖHTTPSºÍSSHĞ­Òé£¬SSHËÙ¶È¸ü¿ì
- git clone git@github.com:nanfei9330/xx.git
+ git clone  https://github.com/qinghuiguo/my_python.git
  git clone https://github.com/qinghuiguo/test.git
  
  
  2.±¾µØ¿â¹ØÁªÔ¶³Ì¿â£¬ÔÚ±¾µØ²Ö¿âÄ¿Â¼ÔËĞĞÃüÁî£º
  git remote add origin https://github.com/qinghuiguo/test.git
+git remote add python https://github.com/qinghuiguo/my_python.git
  
  3.ÍÆËÍmaster·ÖÖ§µÄËùÓĞÄÚÈİ
  git push -u origin master
@@ -29,11 +30,19 @@ git remote add + origin£¨Ô¶³ÌÃû³Æ£©+http://182.92.178.192:9000/tsgeek/test.git(µ
 git pull +origin(Ô¶³ÌÃû×Ö)+master(·ÖÖ§Ãû³Æ)
 git pull origin https://github.com/qinghuiguo/test.git
 
+git pull python https://github.com/qinghuiguo/my_python.git master
 Ìí¼ÓÎÄ¼ş
 git add . 
  $ git add text.txt
 $ git commit -m"Ìí¼ÓĞÂÎÄ¼ş"
 $ git push origin master
+
+git push -u pyhon master
+
+²é¿´Ô¶¶Ë²Ğ¿á
+
+git remote -v
+
 
 ¸üĞÂÎÄ¼ş
 
@@ -55,4 +64,7 @@ git push origin master
 
 
 
+
+
 ÇëÌæ»»Îª×Ô¼º²Ö¿âµÄµÄSSH
+
